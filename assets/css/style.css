@@ -58,6 +58,29 @@ section {
     padding: 20px 60px;
 }
 
+.section-heading {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid var(--offwhite);
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.page-section {
+    display: flex;
+}
+
+.section-content {
+    width: 80%;
+    padding: 20px;
+}
+
 /*Nav Bar Style*/
 nav {
     width: 50%;
@@ -114,7 +137,7 @@ nav {
     row-gap: 10px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(150px, 1fr);
+    grid-template-rows: repeat(3, 150px);
 }
 
 .grid-item:first-child {
@@ -122,14 +145,21 @@ nav {
     grid-row: span 3;
 }
 
+.grid-head {
+    background-color: var(--olive);
+    width: auto;
+    margin: 10px 0;
+    padding: 5px;
+}
+
 .grid-item {
-    border: 5px solid var(--darkblue);
+    border: 5px solid darkgray;
     background-size: 100%;
     display: flex;
     align-items: flex-end;
     text-decoration: none;
-    color: var(--teal);
-    background-size: contain;
+    color: black;
+    background-size: cover;
 }
 
 .run-buddy-grid {
@@ -157,4 +187,9 @@ nav {
 .contact a {
     text-decoration: none;
     color: black;
+    padding: 30px;
+    }
+
+.section-content address {
+    
 }
