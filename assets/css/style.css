@@ -40,13 +40,23 @@ header nav ul li {
     align-items: center;
 }
 
+.header-wrapper h1 {
+    padding: 15px;
+}
+
+body {
+    background-color: var(--lightblue);
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding: 60px;
+}
+
+/*Nav Bar Style*/
 nav {
     width: 50%;
 
-}
-
-.header-wrapper h1 {
-    padding: 15px;
 }
 
 .nav-bar {
@@ -62,7 +72,34 @@ nav {
     
 }
 
-body {
-    background-color: var(--lightblue);
-    font-family: 'Open Sans', sans-serif;
+/*Hero Style*/
+.hero {
+    background-image: url(../images/my-classroom.jpg);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+.hero h2 {
+    color: var(--offwhite);
+    font-size: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*About Me Style*/
+.about {
+    margin: 20px;
+}
+
+/*Projects Style*/
+.projects {
+    margin: 20px;
+}
+
+/*Contact Me Style*/
+.contact {
+    margin: 20px;
 }
