@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    color: var(--offwhite);
+}
+
 header {
     background-color: var(--darkblue);
     width: 100%;
@@ -51,7 +55,7 @@ body {
 }
 
 section {
-    padding: 60px;
+    padding: 20px 60px;
 }
 
 /*Nav Bar Style*/
@@ -80,7 +84,8 @@ nav {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    align-items: flex-start
+    align-items: flex-start;
+    padding: 60px;
 }
 
 .hero h2 {
@@ -91,7 +96,7 @@ nav {
 
 /*About Me Style*/
 .about {
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .about p {
@@ -106,4 +111,9 @@ nav {
 /*Contact Me Style*/
 .contact {
     margin: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
 }
