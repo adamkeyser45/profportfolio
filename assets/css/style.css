@@ -108,6 +108,47 @@ nav {
     margin: 20px;
 }
 
+.grid-container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(150px, 1fr);
+}
+
+.grid-item:first-child {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.grid-item {
+    border: 5px solid var(--darkblue);
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: var(--teal);
+    background-size: contain;
+}
+
+.run-buddy-grid {
+    background-image: url(../images/run-buddy-grid-pic.PNG);
+}
+
+.mern-grid {
+    background-image: url(../images/mern-placeholder.jpg);
+
+}
+
+.node-grid {
+    background-image: url(../images/node-placeholder.jpg);
+}
+
+.java-grid {
+    background-image: url(../images/JavaScript-placeholder.png);
+}
+
 /*Contact Me Style*/
 .contact {
     margin: 20px;
