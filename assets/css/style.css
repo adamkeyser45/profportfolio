@@ -125,6 +125,20 @@ nav {
     padding: 10px 0px;
 }
 
+.about img {
+    display: flex;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    ;
+}
+
+.portrait-box {
+    display: flex;
+    flex-direction: column;
+}
+
 /*Projects Style*/
 .projects {
     margin: 20px;
@@ -186,11 +200,15 @@ nav {
 .contact a {
     text-decoration: none;
     color: black;
-    padding: 30px;
+    padding: 20px;
     }
 
 /*For tablets and smaller*/
 @media screen and (max-width: 768px) {
+
+h1 {
+    font-size: 50px;
+}
 
 .page-wrapper {
     max-width: none;
@@ -235,5 +253,11 @@ section {
 .grid-head {
     font-size: smaller;
 }
+
+.contact a {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    }
 
 }
