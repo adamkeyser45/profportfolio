@@ -95,7 +95,7 @@ nav {
 .nav-bar a {
     text-decoration: none;
     color: var(--offwhite);
-    
+    font-size: x-large;
 }
 
 /*Hero Style*/
@@ -233,6 +233,10 @@ section {
     width: 50%;
     border-right: none;
     border-bottom: 5px solid var(--offwhite);
+}
+
+.nav-bar a {
+    font-size: initial;
 }
 
 .hero h2 {
