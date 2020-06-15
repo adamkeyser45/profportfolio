@@ -207,6 +207,10 @@ section {
     align-items: center;
 }
 
+.section-content {
+    width: 500px;
+}
+
 .section-heading {
     width: 50%;
     border-right: none;
@@ -217,11 +221,8 @@ section {
     text-align: center;
 }
 
-.about > .section-content {
-    width: 500px;
-}
-
 .grid-container {
+    height: 400px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
@@ -229,6 +230,10 @@ section {
 .grid-item:first-child {
     grid-column: span 3;
     grid-row: span 2;
+}
+
+.grid-head {
+    font-size: smaller;
 }
 
 }
