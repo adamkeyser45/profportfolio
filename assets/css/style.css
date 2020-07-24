@@ -24,24 +24,8 @@ header {
     justify-content: space-between;
 }
 
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
 header nav ul li {
     padding: 15px;
-
-}
-
-.header-wrapper {
-    margin: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .header-wrapper h1 {
@@ -81,21 +65,10 @@ section {
 }
 
 /*Nav Bar Style*/
-nav {
-    width: 50%;
-}
-
-.nav-bar {
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: auto;
-}
 
 .nav-bar a {
     text-decoration: none;
     color: var(--offwhite);
-    font-size: x-large;
 }
 
 /*Hero Style*/
@@ -202,66 +175,3 @@ nav {
     color: black;
     padding: 20px;
     }
-
-/*For tablets and smaller*/
-@media screen and (max-width: 768px) {
-
-h1 {
-    font-size: 50px;
-}
-
-.page-wrapper {
-    max-width: none;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.page-section {
-    flex-direction: column;
-}
-
-section {
-    padding: 0px 20px;
-    align-items: center;
-}
-
-.section-content {
-    width: 500px;
-}
-
-.section-heading {
-    width: 50%;
-    border-right: none;
-    border-bottom: 5px solid var(--offwhite);
-}
-
-.nav-bar a {
-    font-size: initial;
-}
-
-.hero h2 {
-    text-align: center;
-}
-
-.grid-container {
-    height: 400px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item:first-child {
-    grid-column: span 3;
-    grid-row: span 2;
-}
-
-.grid-head {
-    font-size: smaller;
-}
-
-.contact a {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-    }
-
-}
