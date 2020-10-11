@@ -16,23 +16,23 @@ h2 {
     color: var(--offwhite);
 }
 
-header {
+/* header {
     background-color: var(--darkblue);
     width: 100%;
     color: var(--offwhite);
     display: flex;
     justify-content: space-between;
-}
+} */
 
-header nav ul {
+/* header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
+} */
 
-header nav ul li {
+/* header nav ul li {
     padding: 15px;
 
 }
@@ -46,16 +46,16 @@ header nav ul li {
 
 .header-wrapper h1 {
     padding: 15px;
-}
+} */
 
 body {
     background-color: var(--lightblue);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-section {
+/* section {
     padding: 20px 60px;
-}
+} */
 
 .section-heading {
     width: 20%;
@@ -81,22 +81,22 @@ section {
 }
 
 /*Nav Bar Style*/
-nav {
-    width: 50%;
+.navbar {
+    background-color: var(--darkblue);
 }
 
-.nav-bar {
+/* .nav-bar {
     margin: 20px;
     justify-content: center;
     align-items: center;
     padding: auto;
-}
+} */
 
-.nav-bar a {
+/* .nav-bar a {
     text-decoration: none;
     color: var(--offwhite);
     font-size: x-large;
-}
+} */
 
 /*Hero Style*/
 .hero {
@@ -204,7 +204,7 @@ nav {
     }
 
 /*For tablets and smaller*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
 h1 {
     font-size: 50px;
@@ -264,4 +264,4 @@ section {
     justify-content: center;
     }
 
-}
+} */
