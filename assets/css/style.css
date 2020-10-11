@@ -14,39 +14,8 @@
 
 h2 {
     color: var(--offwhite);
+    margin: 0;
 }
-
-/* header {
-    background-color: var(--darkblue);
-    width: 100%;
-    color: var(--offwhite);
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-} */
-
-/* header nav ul li {
-    padding: 15px;
-
-}
-
-.header-wrapper {
-    margin: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.header-wrapper h1 {
-    padding: 15px;
-} */
 
 body {
     background-color: var(--lightblue);
