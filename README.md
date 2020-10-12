@@ -1,10 +1,9 @@
-# Week 2 Challenge: Build a Professional Portfolio
+# Adam Keyser's Professional Portfolio
 
 ## Description: 
 My personal (working) professional portfolio that demonstrates my coding and programming skills.
 
 ## Screenshot of Webpage
-![Sreenshot of Webpage](./assets/images/webpage-versrion1.png)
 
 ## Process:
 First, I looked at example websites, such as the Run-Buddy website we are building through the online modules, for inspiration. Using those as a template, I sketched out a rough idea for what I wanted my webpage to look like. I wanted to be able to show off my background in education to future employers, which I think will set me apart from other applicants. After sketching out my idea, I began coding a simple outline of the page in HTML. When the basic structure was sound, I then moved on to add CSS style to each section. Finally, I ended by adapting the webpage to be able to be mobile-friendly.
